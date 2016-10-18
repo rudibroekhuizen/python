@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 
-import subprocess
-import os
 import yaml
+import subprocess
 import json
 
 with open('data.yml') as yml_file:
