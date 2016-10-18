@@ -5,7 +5,7 @@ import os
 import yaml
 import json
 
-with open(os.path.dirname(os.path.abspath(__file__)) + os.sep + 'data.yml', 'r') as yml_file:
+with open('data.yml') as yml_file:
     config = yaml.load(yml_file)
 
 for device_config in config['devices']:
